@@ -1,0 +1,54 @@
+.button{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #4d1601;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 30rem;
+}
+.button:hover{
+    background-color: #361001;
+}
+.cartButtonIcon{
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 10px;
+}
+.cartButtonTitle{
+    margin-right: 10px;
+}
+.cartButtonBadge{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b84010;
+    border-radius: 15px;
+    padding: 2px;
+}
+.bump{
+    animation: bump 300ms ease-out  ;
+}
+@keyframes bump {
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

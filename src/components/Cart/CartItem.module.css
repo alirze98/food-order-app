@@ -1,0 +1,52 @@
+.CartItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #8a2b06;
+    margin-bottom: 2rem;
+    padding-bottom: 10px;
+}
+.rightSide .btn{
+    width: 3rem;
+    border: none;
+    padding: 8px 10px;
+    border: 1px solid #8a2b06;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.rightSide .btn:hover{
+background-color: #8a2b06;
+color:white;
+
+}
+.rightSide .firstBtn{
+    margin-right: 10px;
+}
+.leftSide{
+    width: 25%;
+}
+.leftSide .amount{
+    border: 1px solid #7e7b7a;
+    width: 2rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+.leftSide .numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    
+}

@@ -1,0 +1,40 @@
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.btns button{
+    width: 7rem;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btns .orderBtn{
+    color: white;
+    background-color: #8a2b06;
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.success{
+    color: rgb(13, 179, 13);
+}
+.successCloseBtn{
+    width: 7rem;
+    border: none;
+    background-color: #8a2b06;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}

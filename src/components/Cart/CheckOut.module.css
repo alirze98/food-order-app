@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.control{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.control label{
+    font-weight: bold;
+}
+.control input{
+    margin-top: 3px;
+    border:1px solid rgb(194, 192, 192);
+    border-radius: 2px;
+    padding: 2px 0;
+}
+.invalid label{
+    color: #ca3e51;
+}
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}
+.actions{
+    position: absolute;
+    right: 60px;
+}
+.action{
+    width: 7rem;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.action:nth-child(2){
+    background-color: #8a2b06;
+    color: #fff;
+}
+.action:nth-child(2):disabled{
+    background-color: rgb(170, 170, 170);
+    border:1px solid rgb(170, 170, 170);
+}
